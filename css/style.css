@@ -1,0 +1,28 @@
+body {
+    padding-left: 16.1%;
+    padding-right: 16.1%;
+    background: gray;
+}
+
+
+.corps {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(214, 195, 195);
+}
+
+.autres
+
+.cuvier {
+    display: flex;
+}
+
+.titre {
+    display: flex;
+    align-items: center;
+    background-color:white ;
+    border-radius: 18px;
+    padding: 10px;
+}
+

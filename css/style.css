@@ -239,6 +239,14 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
+}
+
+@media screen and (max-width: 480px) {
+    .texte {
+        width: 90%;
+    }
+    
 }
 
 .titre:hover {

@@ -2,6 +2,8 @@
 
 Un site web dédié à la passion de l'escalade, présentant les plus beaux spots, les grimpeurs de légende et des conseils pour débuter.
 
+https://eloi-saint-gaudin.github.io/proj/
+
 ##  Design
 
 Le site utilise une palette de couleurs inspirée par la nature et la roche:

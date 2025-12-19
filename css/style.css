@@ -427,4 +427,100 @@ footer a:hover {
     cursor: pointer;
 }
 
+/* =========================
+   PAGE ABOUT
+   ========================= */
+.page-about {
+    padding: 20px 10px;
+}
+
+.page-about .page-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-text {
+    flex: 1;
+    background-color: rgba(193, 187, 176, 0.3);
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #8b7f75;
+}
+
+.about-name {
+    color: #3d2817;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.about-subtitle {
+    color: #8b7f75;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.about-bio p {
+    color: #2a2a2a;
+    line-height: 1.8;
+    font-size: 1em;
+}
+
+.about-infos {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #8b7f75;
+}
+
+.about-infos p {
+    color: #5a5450;
+    margin-bottom: 8px;
+}
+
+.about-infos span {
+    color: #2a2a2a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .page-about {
+        padding: 15px 10px;
+    }
+
+    .about-text {
+        padding: 15px;
+    }
+
+    .about-name {
+        font-size: 1.4em;
+    }
+
+    .about-subtitle {
+        font-size: 1em;
+    }
+
+    .about-bio p {
+        font-size: 0.95em;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-about .page-title {
+        font-size: 1.4em;
+    }
+
+    .about-text {
+        border-left-width: 3px;
+    }
+}
+
 

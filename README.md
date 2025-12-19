@@ -30,3 +30,6 @@ Le site utilise une palette de couleurs inspirée par la nature et la roche:
 **SAINT-GAUDIN Eloi**
 - Étudiant en BUT Réseaux et Télécommunications
 - Email: esaintgaudin@gmail.com
+
+## Le trello
+https://trello.com/b/wvD6vWNb/mon-tableau-trello

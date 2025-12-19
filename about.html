@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>À propos de GRIMPRA</title>
+    <meta name="description" content="À propos du site GRIMPRA, créé par SAINT-GAUDIN Eloi, passionné d'escalade.">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/2130773faf.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2130773faf.js" crossorigin="anonymous" aria-hidden="true"></script>
 </head>
 
 <body>
     <div class="fond">
         <div class="corps"> 
-            <div class="tete">
+            <header class="tete" role="banner">
 
                 <div class="image">
 
-                    <img src="img/cuvier.jpg" alt="Le cuvier a fontainebleau">
+                    <img src="img/cuvier.jpg" alt="Bloc d'escalade au Cuvier à Fontainebleau">
 
                 </div>
 
-                <div class="menu">
+                <nav class="menu" aria-label="Navigation principale">
 
                     <div class="titre">
 
@@ -30,40 +31,40 @@
 
                     <div class="liens">
 
-                        <div><a href="spots.html"><i class="fa-solid fa-mountain"></i>Les plus beaux spots d'escalade</a></div>
-                        <div><a href="grimpeurs.html"><i class="fa-solid fa-user"></i>Les grimpeurs de legende</a></div>
-                        <div><a href="conseils.html"><i class="fa-solid fa-hand"></i>des conseils de grimpeur</a></div>
+                        <div><a href="spots.html"><i class="fa-solid fa-mountain" aria-hidden="true"></i><span>Les plus beaux spots d'escalade</span></a></div>
+                        <div><a href="grimpeurs.html"><i class="fa-solid fa-user" aria-hidden="true"></i><span>Les grimpeurs de légende</span></a></div>
+                        <div><a href="conseils.html"><i class="fa-solid fa-hand" aria-hidden="true"></i><span>Des conseils de grimpeur</span></a></div>
 
                     </div>
 
-                </div>
-            </div>
+                </nav>
+            </header>
 
-            <div class="page page-about">
+            <main class="page page-about" role="main">
+                <h1 class="visually-hidden">À propos du site GRIMPRA</h1>
                 <h2 class="page-title"><u>À propos de GRIMPRA</u></h2>
 
-                <div class="about-container">
-                    <!-- Bloc texte uniquement, sans photo -->
+                <section class="about-container" aria-labelledby="about-auteur">
                     <div class="about-text">
-                        <h3 class="about-name">SAINT-GAUDIN Eloi</h3>
-                        <p class="about-subtitle">Etudiant en BUT Réseaux et Télécommunications</p>
+                        <h3 class="about-name" id="about-auteur">SAINT-GAUDIN Eloi</h3>
+                        <p class="about-subtitle">Étudiant en BUT Réseaux et Télécommunications</p>
                         
                         <div class="about-bio">
                             <p>
-                                Passionné par l'esacalade depuis maintenant plus d'un an, j'ai décidé de créer ce site afin de partager ma passion avec le plus grand nombre.
+                                Passionné par l'escalade depuis maintenant plus d'un an, j'ai décidé de créer ce site afin de partager ma passion avec le plus grand nombre.
                             </p>
                         </div>
 
                         <div class="about-infos">
-                            <p><strong>Email:</strong> <span>esaintgaudin@gmail.com</span></p>
-                            <p><strong>Localisation:</strong> <span>1 Avenue reine Mathilde, France</span></p>
+                            <p><strong>Email :</strong> <a href="mailto:esaintgaudin@gmail.com">esaintgaudin@gmail.com</a></p>
+                            <p><strong>Localisation :</strong> <span>1 Avenue Reine Mathilde, France</span></p>
                         </div>
                     </div>
-                </div>
+                </section>
 
-            </div>
+            </main>
 
-            <footer>
+            <footer role="contentinfo">
                 <p>© 2025 GRIMPRA. Tous droits réservés.</p>
                 <a href="about.html">À propos</a>
             </footer>
